@@ -4,7 +4,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  background: url(/assets/images/landscape-sky-dusk-beauty-beach.jpg);
+  background: url(/assets/images/sky.jpg);
   background-size: cover;
 }
 
@@ -45,4 +45,11 @@ button {
   border-radius: 5px;
   color: #fff;
   font-weight: 600;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
